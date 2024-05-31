@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+    
+        #form{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+        #button{
+            height: 25px;
+        }
+        .number{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            color: azure;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <form id = 'form'>
+        <label>Name</label>
+        <input type="text" name="name" id = 'name'>
+        <label>Surname</label>
+        <input type="text" name="surname" id ='surname'>
+        <label>Age</label>
+        <input type="text" name="age" id="age">
+        <button id = 'button'>Click</button>
+    </form>
+    
+    <div class="number">1</div>
+    <br>
+    <br>
+    <div id = "elem"></div>
+    <button id="next">Next</button>
+    <button id="prev">Prev</button>
+    <br>
+    <br>
+    <div id="text">TEXT</div>
+    <button id = "click">Click</button>
+    <br>
+    <br>
+    <label>Enter age
+    <input type="number" min="18" max="99" id="info"></label>
+    <br>
+    <button id="confirm">Confirm</button>
+
+<script src="main10.js"></script>
+</body>
+</html>
